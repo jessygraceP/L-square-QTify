@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: black;
+    color: white;
+    /* gap: 31px; */
+    height: 270px;
+    width: 1440px;
+  }
+  .info {
+   
+  }
