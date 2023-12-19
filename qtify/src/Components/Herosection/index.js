@@ -4,19 +4,23 @@ import headphone from '../../assets/headphone.svg';
 
 const Herosection = () => {
   return (
-    <>
-   <div className='wrapper'>
-    <div>
-        <h1>100 Thousand Songs, ad-free</h1>
+   
+   <div className='hs-Container'>
+    <div className='hs-Content'>
+      <div>
+         <h1>100 Thousand Songs, ad-free</h1>
         <h1>Over thousands podcast episodes</h1>
-      </div>
-      <img
+        </div>
+        <div className='hs-img-frame'>
+        <img className='hs-img'
         src={headphone}
         alt='heroImage'
-        height='212px'
-        width='212px'></img>
+       />
+        </div>
+      </div>
+     
     </div>
-  </>
+ 
   )
 }
 
