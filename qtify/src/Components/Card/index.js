@@ -1,11 +1,13 @@
 import "./Card.css";
-
+import {Tooltip} from '@mui/material';
 const Card = ({
   imgSrc,
   followersCount,
-  label
+  label,
+  numOfSongs,
 }) => {
   return (
+    <Tooltip title = {numOfSongs?`${numOfSongs} songs`: ""} placement="top" arrow>
     <div className="card-wrapper">
         <div className="card">
 <div className="card-img-frame">
@@ -28,7 +30,7 @@ const Card = ({
 
 <p className="card-label">{label}</p>
     </div>
-
+    </Tooltip>
   )
 }
 export default Card;

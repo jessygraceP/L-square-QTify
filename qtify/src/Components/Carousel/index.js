@@ -32,6 +32,7 @@ return (
 imgSrc={cardData.image}
 label={cardData.title}
 followersCount={cardData.follows}
+numOfSongs={cardData.songs?cardData.songs.length:""}
 /></SwiperSlide>)}  
       </Swiper>
 <div className={`arrow-left-${navId} arrow-left arrow`}><img src='/leftIcon.png'/></div>

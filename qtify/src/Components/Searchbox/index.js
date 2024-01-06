@@ -1,7 +1,12 @@
+//import Menu from '../Menu';
 import { ReactComponent as SearchIcon} from './Search icon.svg';
 
 const Searchbox = () => {
-    return <form style={{
+    return <div
+    style={{
+        position: 'relative'
+    }}>
+    <form style={{
         display: 'flex',
         minWidth: '570px'
     }}>
@@ -25,6 +30,7 @@ const Searchbox = () => {
         <SearchIcon width={20} height={20}/>
     </button>
     </form>
-  
+    {/* <Menu data={[1,2,3,4,5]}/>   */}
+  </div>
 }
 export default Searchbox;

@@ -26,6 +26,7 @@ key={cardData.id}
 imgSrc={cardData.image}
 label={cardData.title}
 followersCount={cardData.follows}
+numOfSongs={cardData.songs?cardData.songs.length:""}
 />)}
 
     </div>}
